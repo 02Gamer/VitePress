@@ -1,4 +1,3 @@
-<!-- 字数及阅读时间 -->
 <script lang="ts" setup>
 import { useData } from 'vitepress'
 import { computed, ref, onMounted } from 'vue'
