@@ -10,7 +10,7 @@ export default defineConfig({
   description: "Pokémon", //站点描述
   lastUpdated: true, //上次更新（需Git提交后爬取时间）
   // base: './VitePress/', //部署到VitePress
-  head: [['link', { rel: 'icon', href: './favicon.ico' }]], //Favicin图标(根目录)
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]], //Favicin图标(根目录)
 
   markdown: {
     //...
