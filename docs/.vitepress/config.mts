@@ -27,6 +27,7 @@ export default defineConfig({
 
     logo: '/favicon.svg', //左上角logo
     // siteTitle: false, //标题隐藏（设置站点标题）
+    
     darkModeSwitchLabel: '主题模式', //手机端主题模式文字修改
     lightModeSwitchTitle: '白天模式', 
     darkModeSwitchTitle: '黑夜模式',
