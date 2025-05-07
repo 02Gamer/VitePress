@@ -1,3 +1,4 @@
+import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style/index.css'
 
@@ -23,4 +24,4 @@ export default {
     return h(MyLayout) //视图过度组件
   },
   //
-}
+} satisfies Theme

@@ -8,9 +8,9 @@ export default defineConfig({
   lang: 'zh-CN', //语言，可选 en-US
   title: "宝可梦历险记", //站点名字
   description: "Pokémon", //站点描述
-  lastUpdated: true, //上次更新（需Git提交后爬取时间）
   // base: './VitePress/', //部署到VitePress
   head: [['link', { rel: 'icon', href: './favicon.ico' }]], //Favicin图标(根目录)
+  lastUpdated: true, //上次更新（需Git提交后爬取时间）
 
   markdown: {
     //...
@@ -27,7 +27,7 @@ export default defineConfig({
 
     logo: '/favicon.svg', //左上角logo
     // siteTitle: false, //标题隐藏（设置站点标题）
-    darkModeSwitchLabel: '注意模式', //手机端主题模式文字修改
+    darkModeSwitchLabel: '主题模式', //手机端主题模式文字修改
     lightModeSwitchTitle: '白天模式', 
     darkModeSwitchTitle: '黑夜模式',
     sidebarMenuLabel: '目录', //移动端-侧边栏文字更改
