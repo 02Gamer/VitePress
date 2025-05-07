@@ -20,7 +20,7 @@ export default {
   },
   
   Layout() {
-    return h(MyLayout)
+    return h(MyLayout) //视图过度组件
   },
   //
 }
