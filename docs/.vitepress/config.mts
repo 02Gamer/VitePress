@@ -10,7 +10,7 @@ export default defineConfig({
   description: "Pokémon", //站点描述
   lastUpdated: true, //上次更新（需Git提交后爬取时间）
   // base: './VitePress/', //部署到VitePress
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]], //Favicin图标(根目录)
+  head: [['link', { rel: 'icon', href: './favicon.ico' }]], //Favicin图标(根目录)
 
   markdown: {
     //...
@@ -25,7 +25,7 @@ export default defineConfig({
     sidebar: sidebar,
     socialLinks: socialLinks,
 
-    logo: '/favicon.ico', //左上角logo
+    logo: '/favicon.svg', //左上角logo
     // siteTitle: false, //标题隐藏（设置站点标题）
     darkModeSwitchLabel: '注意模式', //手机端主题模式文字修改
     lightModeSwitchTitle: '白天模式', 
