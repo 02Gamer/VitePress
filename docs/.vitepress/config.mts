@@ -8,9 +8,9 @@ export default defineConfig({
   lang: 'zh-CN', //语言，可选 en-US
   title: "宝可梦历险记", //站点名字
   description: "Pokémon", //站点描述
+  lastUpdated: true, //上次更新（需Git提交后爬取时间）
   // base: './VitePress/', //部署到VitePress
   head: [['link', { rel: 'icon', href: './favicon.ico' }]], //Favicin图标(根目录)
-  lastUpdated: true, //上次更新（需Git提交后爬取时间）
 
   markdown: {
     //...
