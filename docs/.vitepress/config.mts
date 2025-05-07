@@ -14,6 +14,13 @@ export default defineConfig({
 
   markdown: {
     //...
+    config: (md) => //字数及时间
+      md.renderer.rules.heading_close = (tokens, idx, options, env, self) => {
+        let htmlResult = self.renderToken(tokens, idx, options);
+        if (tokens[idx].tag === 'h1') htmlResult += '<ArticleMetadata />';
+        return htmlResult; 
+      },
+
     image: {
       lazyLoading: true, //开启图片懒加载
     }
@@ -27,7 +34,7 @@ export default defineConfig({
 
     logo: '/favicon.svg', //左上角logo
     // siteTitle: false, //标题隐藏（设置站点标题）
-    
+
     darkModeSwitchLabel: '主题模式', //手机端主题模式文字修改
     lightModeSwitchTitle: '白天模式', 
     darkModeSwitchTitle: '黑夜模式',
