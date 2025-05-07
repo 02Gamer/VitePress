@@ -14,7 +14,7 @@ export default defineConfig({
 
   markdown: {
     //...
-    config: (md) => //字数及时间
+    config: (md) => //字数及时间-组件插入h1标题下
       md.renderer.rules.heading_close = (tokens, idx, options, env, self) => {
         let htmlResult = self.renderToken(tokens, idx, options);
         if (tokens[idx].tag === 'h1') htmlResult += '<ArticleMetadata />';
