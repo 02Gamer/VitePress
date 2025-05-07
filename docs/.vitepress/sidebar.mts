@@ -1,6 +1,6 @@
 export default {
     //RNG
-    '/Z/Pokemon/RNG/Gen': [
+    '/Z/Pokemon/RNG/': [
         {
             text: 'Pokémon', // 章节标题
             collapsed: false, // 是否折叠
@@ -29,7 +29,7 @@ export default {
         },
     ],
     //Markdown
-    '/Z/Markdown/Markdown': [
+    '/Z/Markdown/': [
         {
             text: 'Markdown语法', // 章节标题
             items: [
