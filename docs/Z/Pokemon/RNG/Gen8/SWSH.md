@@ -39,7 +39,7 @@
 <ImageViewer src="/images/Pokemon/RNG/能力值.png" alt="能力值" />
 <ImageViewer src="/images/Pokemon/RNG/反查.png" alt="反查" />
 
-4. 这里反查延迟是1-3帧（正常2帧）。确定延迟帧去SWSH_OWRNG_Generator勾选闪光输入动作种子搜索。`闪光帧-延迟帧=要过的帧`，例如394-396为闪帧取395-2=393就是我们要过的帧。这里过帧方式选`摇杆`再填入393要过的帧。最后在铁甲蛹界面启动脚本等待过帧。
+4. 这里反查延迟是1-3帧（正常2帧）。确定延迟帧去SWSH_OWRNG_Generator勾选闪光输入动作种子搜索。`闪光帧-延迟帧=要过的帧`，例如394~396为闪帧取395-2=393就是我们要过的帧。这里过帧方式选`摇杆`再填入393要过的帧。最后在铁甲蛹界面启动脚本等待过帧。
 <ImageViewer src="/images/Pokemon/RNG/闪光帧.png" alt="闪光帧" />
 <ImageViewer src="/images/Pokemon/RNG/过帧.png" alt="过帧" />
 
