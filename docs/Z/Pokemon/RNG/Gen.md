@@ -1,4 +1,4 @@
-# 宝可梦Pokémon
+# Pokémon
 
 > 青玉案·元夕<br>
 > 辛弃疾<br>
