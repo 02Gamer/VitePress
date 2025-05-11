@@ -1,7 +1,5 @@
 # Markdown
->
-> Markdown-it
->
+
 ## 容器
 ::: info
 这是一条info，自定义格式：info+空格+自定义文字
@@ -23,9 +21,14 @@
 这是一条详情，自定义格式：details+空格+自定义文字
 :::
 
+### Title <Badge type="info" text="default" />
+### Title <Badge type="tip" text="^1.9.0" />
+### Title <Badge type="warning" text="beta" />
+### Title <Badge type="danger" text="caution" />
+
 ## 其他
 
-<p style="color:red">这段文字是蓝色的。</p>
+<p style="color:red">这段文字是红色的。</p>
 
 > :warning: **警告：** 不要按下大红色按钮！
 

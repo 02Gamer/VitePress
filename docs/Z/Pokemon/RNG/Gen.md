@@ -1,4 +1,4 @@
-# Pokémon
+# Pokémon乱数
 
 > 青玉案·元夕<br>
 > 辛弃疾<br>
