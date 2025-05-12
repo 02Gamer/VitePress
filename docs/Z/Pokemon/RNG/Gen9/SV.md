@@ -22,8 +22,6 @@
 <Linkcard url="https://docs.google.com/spreadsheets/d/17BElJuistP2eJS49Zx_axCQe4Ibfi_UGBairw14ZvFA/edit?usp=sharing" title="打印机日期表格" description="Google文档" logo="/images/Pokemon/RNG/SV/谷歌logo.png"/>
 :::
 
-<!-- [道具打印机乱数](https://docs.google.com/spreadsheets/d/17BElJuistP2eJS49Zx_axCQe4Ibfi_UGBairw14ZvFA/edit?usp=sharing) -->
-
 ### 稀有精灵球机会和道具双倍
 | 1次 | 日期 | 等待时间 |
 | :-----------------: | :----------: | :----------: |
