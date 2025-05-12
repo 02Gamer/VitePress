@@ -30,18 +30,18 @@
 :::
 
 1. 确定想要的目标定点宝可梦周围未刷新处保存，尽可能保持周围NPC和野生宝可梦游戏里面看不见。通过摇杆往前推一步一存档利用SL达到刷新和不刷新界点`越极限越好`，直到轻推摇杆看见`破土`特效立刻回档重启游戏。打开菜单进入同行宝可梦界面，这里用`铁甲蛹`演示放到第二位，按照脚本说明`测种`启动伊机控等待3-4分钟自动获取128个动作种子。
-<ImageViewer src="/images/Pokemon/RNG/破土.png" alt="破土" />
-<ImageViewer src="/images/Pokemon/RNG/脚本.png" alt="伊机控" />
+<ImageViewer src="/images/Pokemon/RNG/SWSH/破土.png" alt="破土" />
+<ImageViewer src="/images/Pokemon/RNG/SWSH/脚本.png" alt="伊机控" />
 
 2. 打开`SWSH_OWRNG_Generator`软件上方找到`野外遭遇表`找到目标宝可梦随便选一个天气，游戏中保持是晴天或阴天。然后打开左上角的`种子查询`输入刚得到的动作种子应用此数据搜索！
 
 3. 关闭菜单栏的同时往前走去撞宝可梦，大师球直接捕获然后用`个体值计算器`输入对应的能力值和等级进行反查捕获的第几帧。建议多测几次如果相差比较大不稳定试着换个位置找到最为稳定的延迟帧为止。
-<ImageViewer src="/images/Pokemon/RNG/能力值.png" alt="能力值" />
-<ImageViewer src="/images/Pokemon/RNG/反查.png" alt="反查" />
+<ImageViewer src="/images/Pokemon/RNG/SWSH/能力值.png" alt="能力值" />
+<ImageViewer src="/images/Pokemon/RNG/SWSH/反查.png" alt="反查" />
 
 4. 这里反查延迟是1-3帧（正常2帧）。确定延迟帧去SWSH_OWRNG_Generator勾选闪光输入动作种子搜索。`闪光帧-延迟帧=要过的帧`，例如394~396为闪帧取395-2=393就是我们要过的帧。这里过帧方式选`摇杆`再填入393要过的帧。最后在铁甲蛹界面启动脚本等待过帧。
-<ImageViewer src="/images/Pokemon/RNG/闪光帧.png" alt="闪光帧" />
-<ImageViewer src="/images/Pokemon/RNG/过帧.png" alt="过帧" />
+<ImageViewer src="/images/Pokemon/RNG/SWSH/闪光帧.png" alt="闪光帧" />
+<ImageViewer src="/images/Pokemon/RNG/SWSH/过帧.png" alt="过帧" />
 
 ### 钓鱼
 因为钓鱼点的出现和是否骑自行车有关，故根据实际地形情况有两种出发方法：
