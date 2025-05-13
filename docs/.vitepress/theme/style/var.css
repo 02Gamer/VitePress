@@ -46,6 +46,46 @@
 
 /* 链接下划线   */
 /* var.css */
-.vp-doc a {
+/* .vp-doc a {
     text-decoration: none;
-}  
+}   */
+
+/* 表格图片居中尺寸 */
+/* 图片居中样式类（适用于需要水平居中的小尺寸图片） */
+
+/* img {
+  display: block;    转为块级元素
+  margin: 0 auto;    水平居中
+  width: 300px;      固定宽度
+  height: auto;      高度按比例自适应
+} */
+
+/* 通用图片尺寸控制类（保持原始宽高比） */
+.image-s {
+  width: 50px;       /* 固定宽度 100 像素（按需调整） */
+  margin: 0 auto;     /* 上下边距 0，左右自动 - 实现水平居中 */
+  height: auto;       /* 高度自动适配，保持原始比例 */
+  display: block;     /* 将图片转为块级元素，使其独占一行 */
+}
+
+.image-m {
+  max-width: 55px;       /* 固定宽度 100 像素（按需调整） */
+  margin: 0 auto;     /* 上下边距 0，左右自动 - 实现水平居中 */
+  height: auto;       /* 高度自动适配，保持原始比例 */
+  display: block;     /* 将图片转为块级元素，使其独占一行 */
+}
+
+.image-l {
+  width: 200px;       /* 固定宽度 100 像素（按需调整） */
+  margin: 0 auto;     /* 上下边距 0，左右自动 - 实现水平居中 */
+  height: auto;       /* 高度自动适配，保持原始比例 */
+  display: block;     /* 将图片转为块级元素，使其独占一行 */
+}
+
+/* 方形缩略图专用类（用于头像/卡片等场景） */
+.image-square {
+  width: 150px;       /* 正方形宽度 */
+  height: 150px;      /* 与宽度相同，强制方形 */
+  object-fit: cover;  /* 裁剪图片填充容器，保持比例不拉伸 */
+  /* 可选添加：border-radius: 50%; 实现圆形效果 */
+}

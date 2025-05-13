@@ -1,13 +1,13 @@
 export default [
     { text: '首页', link: '/' },
-    { text: 'Pokémon', link: '/Z/Pokemon/RNG/Gen' },
+    // { text: 'Pokémon', link: '/Z/Pokemon/RNG/Gen' },
 
-    // { text: '宝可梦', 
-    //   items: [ // 下拉式菜单导航
-    //     { text: '朱紫', link: '/' },
-    //     { text: '剑盾', link: '/' },
-    //   ]
-    // }, 
+    { text: 'Pokémon', 
+      items: [ // 下拉式菜单导航
+        { text: '宝可梦指南', link: '/Z/Pokemon/Poke/Gen' },
+        { text: '宝可梦乱数', link: '/Z/Pokemon/RNG/Gen' },
+      ]
+    }, 
 
     { text: '关于', // 下拉式菜单导航
       items: [
